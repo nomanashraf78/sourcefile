@@ -20,6 +20,7 @@ class AccountProfileModel {
   // data profile
   String accountName;
   String accountDescription;
+  String additionalInfo;
   int accountNumber;
 
   AccountTypesEnum accountType;
@@ -43,6 +44,7 @@ class AccountProfileModel {
     required this.accountNumber,
     required this.accountName,
     required this.accountDescription,
+    required this.additionalInfo,
     required this.openingDate,
     required this.accountStatus,
     required this.currentBalance,
