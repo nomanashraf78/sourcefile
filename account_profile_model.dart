@@ -52,4 +52,16 @@ class AccountProfileModel {
     required this.auditHistory,
     required this.attachFiles,
   });
+ void accountBalanceUpdate(){}
+ void accountStatusUpdate(){}
+ // audit log
+ void createAuditLog(){}
+ void restoreFromAuditLog(){}
+ void deleteAuditLog(){}
+// Editingcontroller
+ void fromEditingcontroller(){}
+ void modifyWithEditingController(){}
+ // serialization
+ void fromJson(){}
+ void toJson(){}
 }
